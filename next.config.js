@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  apiKey: "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"
+  openaiApi: process.env.OPENAI_API_KEY,
 }
 
 module.exports = nextConfig
